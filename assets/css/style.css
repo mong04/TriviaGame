@@ -1,0 +1,92 @@
+html, body {
+	height: 100%;
+	font-family: 'TikalSans-Medium';
+}
+
+html { 
+	background: url(../images/hallway.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#question-container {
+	height: 100%;
+	background: url(../images/parchment.jpg) no-repeat center center fixed;
+	margin: auto;
+	width: 50%;
+	border: 3px #443421;
+	padding: 10px;
+	overflow: hidden;
+}
+
+h1, h2, h3, p {
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+	margin: .67em 0;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.25em;
+	margin: .3em 0;
+}
+
+p {
+	list-style: none;
+	text-align: center;
+	font-size: 1.2em;
+	margin: .15em 0;
+}
+#alert {
+	margin: 5px 0;
+}
+button{
+	font-family: 'TikalSans-Medium';
+	font-weight: bold;
+	font-size: 30px;
+	display: block;
+	margin: auto;
+	border: ridge 3px #443421;
+	background-color: #C59B71;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	height: auto;
+	width: auto;
+}
+
+button:hover {
+	background-color: #715439;
+}
+
+button:active {
+  background-color: #715439;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.choices {
+	line-height: 40px;
+	font-size: 30px;
+	margin: 1.75em 0;
+}
+
+.choices:hover {
+	border: ridge 3px #443421;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#timer {
+	border-bottom: solid 5px black;
+	padding-bottom: 10px;
+}
